@@ -1,0 +1,2 @@
+export const TOGGLE_COMMS = "TOGGLE_COMMS";
+export const SELECT_COMM_TYPE = "SELECT_COMM_TYPE";
