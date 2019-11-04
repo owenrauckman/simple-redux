@@ -1,3 +1,18 @@
+# Useful Links
+
+https://github.com/reduxjs/react-redux/blob/master/docs/api/hooks.md
+https://codesandbox.io/s/9on71rvnyo
+https://github.com/reduxjs/react-redux/blob/master/docs/api/hooks.md
+https://blog.jakoblind.no/react-redux-hooks/
+https://thoughtbot.com/blog/using-redux-with-react-hooks
+https://redux.js.org/recipes/using-object-spread-operator
+
+# Less useful links
+https://github.com/stevekinney/redux-counter/blob/decrement-solution/src/index.js
+https://github.com/stevekinney/kanbananza/tree/card-solution/src
+
+-----------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
