@@ -1,9 +1,9 @@
-import { TOGGLE_COMMS, SELECT_COMM_TYPE } from "./actionTypes";
+import { UPDATE_TOURNAMENT, UPDATE_TOURNAMENTS } from "./actionTypes";
 
-export const toggleComms = (isVisible) => {
-  return ({ type: TOGGLE_COMMS, payload: { isVisible } })
-};
+export const updateTournament = (payload) => {
+  return ({type: UPDATE_TOURNAMENT, payload  })
+}
 
-export const selectCommType = (selectedType) => {
-  return ({type: SELECT_COMM_TYPE, payload: {selectedType } })
+export const updateTournaments = (payload) => {
+  return ({type: UPDATE_TOURNAMENTS, payload  })
 }

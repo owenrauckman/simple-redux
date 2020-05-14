@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
 
-import comms from "./comms";
+import pickleball from "./pickleball";
 
-export default combineReducers({ comms });
+export default combineReducers({pickleball});

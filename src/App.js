@@ -1,14 +1,15 @@
 import React from 'react';
-import Child from './Child'
+import EditTournament from './EditTournament';
 import { Provider } from "react-redux";
 
 import store from "./redux/store";
 
+const isCreate = true;
+
 function App() {
   return (
     <Provider store={store}>
-      <div>Parent Component</div>
-      <Child/>
+      <EditTournament isCreate={isCreate}/>
     </Provider>
   );
 }

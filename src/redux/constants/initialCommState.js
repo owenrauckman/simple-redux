@@ -1,1 +1,5 @@
-export const initialCommState = { isVisible: false, selectedType: 'video' }
+export const initialCommState = { 
+  tournament: {},
+  // DUMMY DATA
+  tournaments: [{title: 'test 1', date: 'date 1'}],
+}
